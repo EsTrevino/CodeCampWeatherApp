@@ -1,0 +1,111 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #99d792;
+}
+
+#landing {
+	height: 800px;
+	width: 100%;
+	margin: auto;
+}
+
+.landingTitle {
+	padding-top: 30px;
+	margin: auto;
+}
+
+.landingTitle h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+
+.display {
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	background-color: #90abd6;
+	width: 550px;
+	height: 500px;
+	margin: auto;
+}
+
+.temp {
+	font-size: 100px;
+	margin-top: 30px;
+	margin-left: 120px;
+	display: inline-block;
+}
+.degreeSign {
+	display: inline-block;
+	font-size: 100px;
+	margin-top: 0px;
+	margin-left: 15px;
+	position: relative;
+	bottom: 0px;
+}
+.condition {
+	display: inline-block;
+	font-size: 35px;
+	position: relative;
+	bottom: 45px;
+	margin-left: 10px;
+}
+
+.location {
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	bottom: 15px;
+	margin-top: 0px;
+}
+
+.bottomButtons {
+	margin: auto;
+	position: relative;
+	top: 15px;
+	width: 30%;
+}
+
+.faren {
+	margin-left: 35px;
+}
+
+.iconImage {
+	margin-left: 243.5px;
+	padding-bottom: 20px;
+}
+
+p {
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 0px;
+	background-color: #90abd6;
+	border: none;
+}
+
+.tempSelector:hover {
+	font-weight: bold;
+}
+
+.pipe {
+	text-align: center;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+button {
+	margin-left: 25%;
+	margin-top: 200px;
+	background-color: #99d792;
+	border: none;
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 6px;
+	text-align: center;
+	outline-style: none;
+}
+button:hover {
+	cursor: pointer;
+}
